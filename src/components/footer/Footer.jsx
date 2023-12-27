@@ -8,12 +8,12 @@ const Footer = () => {
 		<footer className={styles.footer}>
 			<Container>
 				<div className={styles.footer__body}>
-					<div className={styles.footer__left}>© 2023 Dick&Joyer. All rights reserved.</div>
+					<div className={styles.footer__left}>© 2023 Dick&Joyer. Всі права захищені.</div>
 
 					<div className={styles.footer__right}>
-						<Link href="/">Home</Link>
-						<Link href="/plans">Plans</Link>
-						<Link href="/contacts">Contacts</Link>
+						<Link href="/">Головна</Link>
+						<Link href="/plans">Тарифи</Link>
+						<Link href="/contacts">Контакти</Link>
 					</div>
 
 				</div>

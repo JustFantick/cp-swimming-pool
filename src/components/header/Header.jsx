@@ -12,15 +12,15 @@ const Header = () => {
 				<div className={styles.header__body}>
 					<div className={styles.header__menu}>
 						<Logo />
-						<Link href="/">Home</Link>
-						<Link href="/plans">Plans</Link>
-						<Link href="/contacts">Contacts</Link>
+						<Link href="/">Головна</Link>
+						<Link href="/plans">Тарифи</Link>
+						<Link href="/contacts">Контакти</Link>
 
 					</div>
 
 					<div className={styles.header__buttonSection}>
 						<Link href="/check-subscription">
-							<Button>Check subscription</Button>
+							<Button>Перевірити абонемент</Button>
 						</Link>
 
 					</div>
