@@ -1,6 +1,7 @@
 import { Roboto } from 'next/font/google'
 import './globals.scss'
 import Header from '@/components/header/Header'
+import Footer from '@/components/footer/Footer'
 
 const roboto = Roboto({
   subsets: ['cyrillic-ext'],
@@ -19,10 +20,13 @@ export default function RootLayout({ children }) {
         <div className="wrapper">
           <Header />
 
-          {children}
+          <main className='wrapper__page-content'>
+            {children}
+          </main>
+
+          <Footer />
 
         </div>
-
       </body>
     </html>
   )
