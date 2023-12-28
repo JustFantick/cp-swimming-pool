@@ -1,0 +1,19 @@
+.switchButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+
+	&__stateOff,
+	&__stateOn {
+		padding: 8px 24px;
+		font-size: 16px;
+		line-height: 1.5;
+		font-weight: 400;
+	}
+
+	&__stateOn {
+		background-color: black;
+		color: white;
+	}
+}

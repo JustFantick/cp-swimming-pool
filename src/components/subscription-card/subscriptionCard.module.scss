@@ -1,0 +1,38 @@
+.subscriptionCard {
+	padding: 30px;
+	border: 1px solid black;
+
+	&__name {
+		text-align: center;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 1.4;
+
+		margin-bottom: 8px;
+	}
+
+	&__price {
+		text-align: center;
+		font-size: 48px;
+		line-height: 1.2;
+		font-weight: 700;
+
+		margin-bottom: 30px;
+	}
+
+	&__servicesList {
+		padding-left: 20px;
+
+		li {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 1.5;
+
+			margin-bottom: 15px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
