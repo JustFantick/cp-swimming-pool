@@ -1,0 +1,12 @@
+.subscriptionInfoContainer {
+	max-width: 768px;
+
+	th,
+	td {
+		padding: 5px;
+		
+		@media (max-width: 375px) {
+			font-size: 14px;
+		}
+	}
+}
