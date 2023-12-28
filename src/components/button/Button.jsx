@@ -14,6 +14,7 @@ const Button = ({ color = 'black', children }) => {
 				color: colorScheme.color,
 				lineHeight: 1.5,
 				fontSize: '16px',
+				border: '1px solid black'
 			}}
 		>
 			{children}
