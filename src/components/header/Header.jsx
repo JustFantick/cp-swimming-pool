@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './header.module.scss'
 import Container from '../container/Container'
-import Logo from '../logo/logo'
+import Logo from '../logo/Logo'
 import Link from 'next/link'
-import Button from '../button/button'
+import Button from '../button/Button'
 
 const Header = () => {
 	return (
