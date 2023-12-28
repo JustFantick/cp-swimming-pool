@@ -11,11 +11,6 @@
 
 	&__title {
 		grid-area: title;
-
-		h1 {
-			font-size: 56px;
-			line-height: 1.2;
-		}
 	}
 
 	&__subtitle {
@@ -32,10 +27,6 @@
 	}
 
 	@media (max-width: 1150px) {
-		&__title h1 {
-			font-size: 32px;
-		}
-
 		column-gap: 40px;
 		row-gap: 40px;
 	}

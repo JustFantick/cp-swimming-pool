@@ -26,6 +26,15 @@ a {
   }
 }
 
+* h1 {
+  font-size: 56px;
+  line-height: 1.2;
+
+  @media (max-width: 1150px) {
+    font-size: 32px;
+  }
+}
+
 * h2 {
   font-size: 42px;
   font-weight: 700;
