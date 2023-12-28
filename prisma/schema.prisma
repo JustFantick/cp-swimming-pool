@@ -15,7 +15,7 @@ model users {
   firstName        String @db.Text
   lastName         String @db.Text
   email            String @unique(map: "email") @db.VarChar(255)
-  tel              Int
-  subscriptionType Int
+  tel              String
+  subscriptionType String
   subscriptionTerm Int
 }
